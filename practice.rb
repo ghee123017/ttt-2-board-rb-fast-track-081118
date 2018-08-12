@@ -7,7 +7,7 @@ end
 def wake_up(day)
   if day.downcase.start_with? "t"
     puts "its probaly a Tuesday or Thursday" 
-  elsif day.downcase.started_with? "s"
+  elsif day.downcase.start_with? "s"
     puts "Its probaably the weekend"
   else 
     puts "Its a Monday, Wednesday or Friday" 
