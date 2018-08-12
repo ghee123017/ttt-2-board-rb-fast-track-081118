@@ -1,6 +1,6 @@
 require 'pry'
 
-def morning_plan
+def morning_plan(day)
   wake_up(day)
 end
 
